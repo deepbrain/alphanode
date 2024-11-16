@@ -97,7 +97,7 @@ for message in st.session_state.messages:
 
 # Accept user input
 user_prompt = st.chat_input(
-    "What can I help you with regarding the Department of Agriculture data for the last few months?")
+    "Ask any questions about the Department of Agriculture data")
 
 if user_prompt:
     # Add user message to chat history
