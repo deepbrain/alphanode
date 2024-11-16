@@ -50,7 +50,7 @@ def get_analysis_prompt(user_input):
     # convert the dataurls dict to a string
     data_urls_str = "\n".join([f"{month}: {url}" for month, url in DataUrls.items()])
     message = (
-        f"You are an investment analyst specializing in the agriculture sector. Analyze the following agriculture data and answer the question: {user_input}\n"
+        f"You are an investment analyst specializing in the agriculture sector. Analyze the agriculture data given and answer the question: {user_input}\n"
         f"In your analysis, emphasize any trends or insights or original ideas valuable for investors. "
         f"Start from the latest month and compare the data to previous months and the last year. "
         f"Make sure all quoted numbers are accurate and have exact matches in the documents for the respective months above."
